@@ -1,0 +1,33 @@
+{
+  "name": "schools-ui",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "https://aliyahdutoit.github.io/schools-ui/",
+
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "deploy": "vue-cli-service build && gh-pages -d dist"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.4.0",
+    "@fortawesome/free-brands-svg-icons": "^6.4.0",
+    "@fortawesome/free-regular-svg-icons": "^6.4.0",
+    "@fortawesome/free-solid-svg-icons": "^6.4.0",
+    "@fortawesome/vue-fontawesome": "^3.0.3",
+    "axios": "^1.4.0",
+    "bootstrap": "^5.3.0",
+    "jquery": "^3.7.0",
+    "sweetalert": "^2.1.2",
+    "vue": "^3.2.13",
+    "vue-router": "^4.0.3",
+    "vue-sweetalert2": "^5.0.5",
+    "vuex": "^4.0.0"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-router": "~5.0.0",
+    "@vue/cli-plugin-vuex": "~5.0.0",
+    "@vue/cli-service": "~5.0.0",
+    "gh-pages": "^5.0.0"
+  }
+}
